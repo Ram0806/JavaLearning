@@ -1,6 +1,7 @@
 class calculator {
     public int sum(int a, int b) {
         int result = a+b;
+        System.out.println("The result in class is " + result);
         return result;
     }
 }
